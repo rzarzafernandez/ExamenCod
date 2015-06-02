@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mcd;
+package examencod;
 
 /**
  *
@@ -16,6 +16,11 @@ public class Calculo {
     private String mensajeResultado = "";
 
     public Calculo() {
+    }
+    
+    public Calculo(int numero1, int numero2, String mensajeResultado) {
+        this.numero1 = numero1;
+        this.numero2 = numero2;
     }
 
     //setters
